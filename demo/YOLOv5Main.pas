@@ -217,8 +217,7 @@ begin
       
     InitializeONNX;                                             //
     //squeezenet.onnx
-  //  LoadModel(ExtractFilePath(ParamStr(0)) + 'yolov5s6.onnx');
-     LoadModel(ExtractFilePath(ParamStr(0)) + 'yolov5x6.onnx');
+    LoadModel(ExtractFilePath(ParamStr(0)) + 'yolov5s6.onnx');
   //  LoadModel(ExtractFilePath(ParamStr(0)) + 'squeezenet.onnx');
    // LoadModel(ExtractFilePath(ParamStr(0)) + 'yolov5s.onnx');
     StatusBar1.SimpleText := '模型加载成功，等待选择图片...';
