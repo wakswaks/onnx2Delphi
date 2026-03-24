@@ -6,6 +6,7 @@ Delphi 调用 ONNXRuntime 加载 YOLOv5 ONNX 模型的Demo。
 - yolov5s6.onnx, yolov5s.onnx：来自 https://github.com/ultralytics/yolov5
 
 Demo仅在Win10 + Delphi XE12.2下测试，注意onnxruntime.dll和项目都为64位。
+
 Demo由AI生成并通过不断错误测试改进后初步验证成功，可能存在较多的问题。
 ---
 
