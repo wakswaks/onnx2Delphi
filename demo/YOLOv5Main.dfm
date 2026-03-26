@@ -54,8 +54,6 @@ object MainForm: TMainForm
       Top = 10
       Width = 481
       Height = 49
-      Lines.Strings = (
-        'Memo1')
       TabOrder = 2
     end
   end
