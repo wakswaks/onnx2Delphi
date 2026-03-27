@@ -1,16 +1,11 @@
-# ====================== Delphi 专用配置 ======================
-# 强制 GitHub 把项目识别为 Delphi 语言
-* linguist-language=Pascal
-
-# 告诉 GitHub：这些是 Delphi 源码文件（必须写）
-*.pas linguist-language=Pascal
-*.dpr linguist-language=Pascal
-*.dfm linguist-language=Pascal
-*.inc linguist-language=Pascal
-
-# 忽略不需要统计的文件夹（避免干扰语言识别）
-__history/ linguist-vendored
-backup/ linguist-vendored
+*.pas linguist-language=Pascal linguist-detectable=true
+*.dpr linguist-language=Pascal linguist-detectable=true
+*.dfm linguist-language=Pascal linguist-detectable=true
+*.inc linguist-language=Pascal linguist-detectable=true
+*.md linguist-documentation=true
+*.txt linguist-documentation=true
+LICENSE linguist-documentation=true
+README* linguist-documentation=true
 *.local linguist-vendored
 *.identcache linguist-vendored
 *.ota linguist-vendored
@@ -19,7 +14,12 @@ backup/ linguist-vendored
 *.group linguist-vendored
 *.exe linguist-vendored
 *.dll linguist-vendored
+
+__history/ linguist-vendored
+backup/ linguist-vendored
 bin/ linguist-vendored
 obj/ linguist-vendored
 Debug/ linguist-vendored
 Release/ linguist-vendored
+x64/ linguist-vendored
+Win32/ linguist-vendored
